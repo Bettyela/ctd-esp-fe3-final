@@ -1,0 +1,23 @@
+.Home {
+    background-color: #f6efec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+  }
+  
+  .Home h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Home p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Home .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }

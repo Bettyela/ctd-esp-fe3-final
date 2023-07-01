@@ -1,0 +1,44 @@
+footer {
+    background-color: #FAD2D2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    width: 96.86%;
+    height: 40px;
+    margin-top: 2rem;   
+}
+
+img {
+    width: 200px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding-top: 0.7rem;
+}
+
+.logos-redes {
+    filter: invert(100%);
+    max-width: 25px; 
+    height: auto;
+    max-height: 30px; 
+    object-fit: contain;
+    margin-right: 10px; 
+}
+
+.powered-by {
+    margin-bottom: 50px;
+}
+
+.dh-logo {
+    margin-bottom: 50px; 
+}
+
+.redes-container {
+    display: flex;
+    gap: 10px; 
+}

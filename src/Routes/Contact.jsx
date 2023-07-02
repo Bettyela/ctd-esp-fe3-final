@@ -1,12 +1,13 @@
-//import React from 'react'
-import Form from '../Components/Form/Form'
-
-//Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
+/* eslint-disable no-unused-vars */
+import React from "react"
+import Form from '../Components/Form'
 
 const Contact = () => {
-  return (
-      <Form/>
-  )
+    return (
+        <div>
+            <Form/>
+        </div>
+    )
 }
 
 export default Contact
